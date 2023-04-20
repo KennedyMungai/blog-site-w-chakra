@@ -6,7 +6,12 @@ type Props = {}
 const ToggleMode = (props: Props) => {
 	const { colorMode, toggleColorMode } = useColorMode()
 
-	return <IconButton icon={<MoonIcon />} aria-label='Mode Icon' />
+	return (
+		<IconButton
+			icon={colorMode === 'dark' ? <MoonIcon /> : <SunIcon />}
+			aria-label='Color Toggle Button'
+		/>
+	)
 }
 
 export default ToggleMode
