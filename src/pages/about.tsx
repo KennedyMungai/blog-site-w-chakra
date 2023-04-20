@@ -17,6 +17,7 @@ const about = (props: Props) => {
 				p='6rem'
 				fontSize={'4rem'}
 				variant={'solid'}
+				color={'blue.800'}
 			>
 				About
 			</Button>
