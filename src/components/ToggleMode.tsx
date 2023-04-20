@@ -4,6 +4,8 @@ import { IconButton, useColorMode } from '@chakra-ui/react'
 type Props = {}
 
 const ToggleMode = (props: Props) => {
+	const { colorMode, toggleColorMode } = useColorMode()
+
 	return <IconButton icon={<MoonIcon />} aria-label='Mode Icon' />
 }
 
