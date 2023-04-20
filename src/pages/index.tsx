@@ -1,3 +1,4 @@
+import ToggleMode from '@/components/ToggleMode'
 import { Button, Heading, Text, useTheme } from '@chakra-ui/react'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
