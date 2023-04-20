@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { ReactNode } from 'react'
-import { Link } from '@chakra-ui/react'
+// import { Link } from '@chakra-ui/react'
 
 type Props = {
 	href: string
