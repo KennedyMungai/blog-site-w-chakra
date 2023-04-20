@@ -1,5 +1,5 @@
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
-import { IconButton } from '@chakra-ui/react'
+import { IconButton, useColorMode } from '@chakra-ui/react'
 
 type Props = {}
 
