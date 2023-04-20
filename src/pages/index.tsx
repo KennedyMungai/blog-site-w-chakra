@@ -5,7 +5,7 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-	console.log(useTheme)
+	console.log(useTheme())
 
 	return (
 		<div>
