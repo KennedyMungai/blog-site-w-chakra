@@ -6,3 +6,5 @@ const customFonts = {
 }
 
 const theme = extendTheme({ customFonts })
+
+export default theme
