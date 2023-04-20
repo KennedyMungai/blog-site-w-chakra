@@ -4,7 +4,7 @@ import { IconButton } from '@chakra-ui/react'
 type Props = {}
 
 const ToggleMode = (props: Props) => {
-	return <div>ToggleMode</div>
+	return <IconButton icon={<MoonIcon />} aria-label='Mode Icon' />
 }
 
 export default ToggleMode
