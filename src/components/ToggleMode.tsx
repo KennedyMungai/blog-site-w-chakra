@@ -10,6 +10,7 @@ const ToggleMode = (props: Props) => {
 		<IconButton
 			icon={colorMode === 'dark' ? <MoonIcon /> : <SunIcon />}
 			aria-label='Color Toggle Button'
+			onClick={toggleColorMode}
 		/>
 	)
 }
