@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 	return (
 		<div>
-			<Text as={'section'} isTruncated>
+			<Text as={'section'} noOfLines={2}>
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 				Commodi eaque rem praesentium unde nobis dolorem dolor sit
 				similique provident. Totam ducimus deleniti rerum reiciendis a,
