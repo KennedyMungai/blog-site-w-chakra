@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 	return (
 		<div>
-			<Text>This is a text component</Text>
+			<Text as={'section'}>This is a text component</Text>
 		</div>
 	)
 }
