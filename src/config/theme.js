@@ -5,6 +5,11 @@ const customFonts = {
 	sm: '1.3rem'
 }
 
-const theme = extendTheme({ customFonts })
+const config = {
+	initialColorMode: 'light',
+	useSystemColorMode: 'false'
+}
+
+const theme = extendTheme({ customFonts, config })
 
 export default theme
