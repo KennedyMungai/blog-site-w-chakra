@@ -1,4 +1,5 @@
 import { Button, Heading, Text } from '@chakra-ui/react'
+import { useTheme } from '@emotion/react'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 
