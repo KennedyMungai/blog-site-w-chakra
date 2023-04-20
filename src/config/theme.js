@@ -5,4 +5,4 @@ const customFonts = {
 	sm: '1.3rem'
 }
 
-const theme = extendTheme({})
+const theme = extendTheme({ customFonts })
