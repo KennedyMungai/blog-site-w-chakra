@@ -6,7 +6,13 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 	return (
 		<div>
-			<Heading>This page is the shit</Heading>
+			<Heading
+				textAlign={'center'}
+				textDecoration={'underline'}
+				mb={'2rem'}
+			>
+				This page is the shit
+			</Heading>
 			<Text as={'section'} noOfLines={20}>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				Similique, debitis praesentium totam error dignissimos veritatis
