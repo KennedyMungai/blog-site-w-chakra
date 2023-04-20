@@ -1,3 +1,5 @@
+import NextLink from 'next/link'
+
 type Props = {}
 
 const Link = (props: Props) => {
