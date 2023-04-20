@@ -14,6 +14,7 @@ export default function Home() {
 				textAlign={'center'}
 				textDecoration={'underline'}
 				mb={'2rem'}
+				fontSize={{ base: '1rem', md: '1.5rem', lg: '2rem' }}
 			>
 				This page is the shit
 			</Heading>
