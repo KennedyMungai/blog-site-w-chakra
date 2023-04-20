@@ -7,6 +7,7 @@ export default function Home() {
 	return (
 		<div>
 			<Heading
+				as={'h1'}
 				textAlign={'center'}
 				textDecoration={'underline'}
 				mb={'2rem'}
