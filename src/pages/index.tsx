@@ -17,6 +17,7 @@ export default function Home() {
 			>
 				This page is the shit
 			</Heading>
+			<ToggleMode />
 		</div>
 	)
 }
